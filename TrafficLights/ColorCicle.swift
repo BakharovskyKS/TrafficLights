@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ColorCicle: View {
-    var color: Color
-    var opacity: CGFloat
+    let color: Color
+    let opacity: CGFloat
     
     init(color: Color, opacity: CGFloat) {
         self.color = color
@@ -32,7 +32,7 @@ struct ColorCicle: View {
 
 struct ColorCicle_Previews: PreviewProvider {
     static var previews: some View {
-        ColorCicle(color: .black, opacity: 0.5)
+        ColorCicle(color: .black, opacity: 1)
     }
 }
 
