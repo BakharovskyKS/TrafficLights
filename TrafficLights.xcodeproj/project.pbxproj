@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57A3A1C9274122AB00FF566E /* ColorCicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A3A1C8274122AB00FF566E /* ColorCicle.swift */; };
 		57F0F113273DAD0000DC2F3D /* TrafficLightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0F112273DAD0000DC2F3D /* TrafficLightsApp.swift */; };
 		57F0F115273DAD0000DC2F3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0F114273DAD0000DC2F3D /* ContentView.swift */; };
 		57F0F117273DAD0200DC2F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F0F116273DAD0200DC2F3D /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57A3A1C8274122AB00FF566E /* ColorCicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCicle.swift; sourceTree = "<group>"; };
 		57F0F10F273DAD0000DC2F3D /* TrafficLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F0F112273DAD0000DC2F3D /* TrafficLightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsApp.swift; sourceTree = "<group>"; };
 		57F0F114273DAD0000DC2F3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				57F0F112273DAD0000DC2F3D /* TrafficLightsApp.swift */,
 				57F0F114273DAD0000DC2F3D /* ContentView.swift */,
+				57A3A1C8274122AB00FF566E /* ColorCicle.swift */,
 				57F0F116273DAD0200DC2F3D /* Assets.xcassets */,
 				57F0F118273DAD0200DC2F3D /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A3A1C9274122AB00FF566E /* ColorCicle.swift in Sources */,
 				57F0F115273DAD0000DC2F3D /* ContentView.swift in Sources */,
 				57F0F113273DAD0000DC2F3D /* TrafficLightsApp.swift in Sources */,
 			);
