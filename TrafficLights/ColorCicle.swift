@@ -9,22 +9,17 @@ import SwiftUI
 
 struct ColorCicle: View {
     let color: Color
-    let opacity: CGFloat
-    
-    init(color: Color, opacity: CGFloat) {
-        self.color = color
-        self.opacity = opacity
-    }
+    let opacity: Double
     
     var body: some View {
-        
         Circle()
-            .frame(width: 150, height: 150)
+            .frame(width: 100, height: 100)
             .foregroundColor(color)
             .opacity(opacity)
-            .overlay(Circle().stroke(Color.white, lineWidth: 5))
-            .shadow(radius: 20)
-            .padding(5)
+            .overlay(
+                Circle().stroke(Color.white, lineWidth: 5)
+                    .opacity(opacity)
+            )
     }
     
     
@@ -33,6 +28,7 @@ struct ColorCicle: View {
 struct ColorCicle_Previews: PreviewProvider {
     static var previews: some View {
         ColorCicle(color: .black, opacity: 1)
+            
     }
 }
 
